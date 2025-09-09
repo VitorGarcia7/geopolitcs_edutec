@@ -42,7 +42,7 @@
       <div class="row" style="justify-content: space-between; align-items: baseline;">
         <h1>Flappy EDUTEC </h1>
         <div class="badges">
-          <span class="badge">Espaço/Click/Tap: Pular</span>
+          <span class="badge">Espaço: Pular</span>
           <span class="badge">R: Reiniciar</span>
           <span class="badge">P:Pausar</span>
         </div>
@@ -54,12 +54,11 @@
   </div>
 
   <script>
-  // ===================== CONFIG =====================
+  
   const CANVAS = document.getElementById('game');
   const CTX = CANVAS.getContext('2d');
   const DPR = Math.max(1, Math.min(window.devicePixelRatio || 1, 2));
 
-  // Ajuste responsivo de nitidez em telas high-DPI
   function fitCanvas() {
     const cssWidth = CANVAS.clientWidth;
     const ratio = cssWidth / CANVAS.width; // mantém aspect via CSS
@@ -67,26 +66,26 @@
     const targetH = Math.round(CANVAS.height * DPR);
     CANVAS.width = targetW;
     CANVAS.height = targetH;
-    CTX.setTransform(DPR, 0, 0, DPR, 0, 0); // desenha em coordenadas lógicas
+    CTX.setTransform(DPR, 0, 0, DPR, 0, 0); // desemha cordenadas
   }
   fitCanvas();
   window.addEventListener('resize', fitCanvas);
 
-  // Sprite do pássaro (opcional). Deixe vazio para forma vetorial.
+  
   const BIRD_SPRITE_URL = "./assets/aviao.png";
-  const SPRITE_SCALE = 9.0;   // 1.0 = original; ex: 0.7 menor, 1.4 maior
-  const HITBOX_SHRINK =0.1;  // 1.0 = hitbox igual; <1.0 = menor (mais justo)
+  const SPRITE_SCALE = 9.0;   // tamanho do sprite
+  const HITBOX_SHRINK =0.1;  
 
-  // Físicas e jogo
-  const GRAVITY = 1800;   // px/s^2
-  const JUMP_VELOCITY = -520; // px/s
-  const PIPE_SPEED = 220; // px/s
+  
+  const GRAVITY = 1800; 
+  const JUMP_VELOCITY = -520; 
+  const PIPE_SPEED = 220; 
   const PIPE_GAP = 160;   // espaço entre canos
   const PIPE_WIDTH = 86;
-  const PIPE_INTERVAL = 1.4; // s entre spawns
+  const PIPE_INTERVAL = 1.4; 
   const GROUND_Y = 600;   // "chão" imaginário para colisão
 
-  // Visual
+ 
  const COLORS = {
   pipe: '#4eb464',       // verde claro
   pipeDark: '#1f6d2d',   // verde ainda mais escuro
@@ -97,7 +96,7 @@
 };
 
 
-  // ===================== ESTADO =====================
+  
   let state = {
     playing: false,
     paused: false,
@@ -139,7 +138,7 @@
 
   reset();
 
-  // ===================== INPUT =====================
+  
   function flap() {
     if (state.gameOver) return; // evita pulo pós-game over
     state.bird.vy = JUMP_VELOCITY;
@@ -156,7 +155,7 @@
   CANVAS.addEventListener('mousedown', flap);
   CANVAS.addEventListener('touchstart', (e) => { e.preventDefault(); flap(); }, { passive: false });
 
-  // ===================== CANOS =====================
+  
   function spawnPipePair() {
     const minTop = 60;
     const maxTop = 380;
@@ -176,7 +175,7 @@
     state.pipes = state.pipes.filter(p => p.x + PIPE_WIDTH > -40);
   }
 
-  // ===================== COLISÃO =====================
+  
   function rectsOverlap(a, b) {
     return a.x < b.x + b.w && a.x + a.w > b.x && a.y < b.y + b.h && a.y + a.h > b.y;
   }
@@ -191,14 +190,14 @@
     const b = state.bird;
     const hb = getBirdHitbox(b);
 
-    // chão/teto
     
-    const CEILING_BUFFER = 0; // distância mínima do topo antes de colidir
+    
+    const CEILING_BUFFER = 0; 
 
 if (b.y + b.h >= GROUND_Y || b.y <= CEILING_BUFFER) {
   return true;
 }
-    // canos
+    
     for (const p of state.pipes) {
       const topRect = { x: p.x, y: p.top.y, w: PIPE_WIDTH, h: p.top.h };
       const botRect = { x: p.x, y: p.bottom.y, w: PIPE_WIDTH, h: p.bottom.h };
@@ -207,7 +206,7 @@ if (b.y + b.h >= GROUND_Y || b.y <= CEILING_BUFFER) {
     return false;
   }
 
-  // ===================== ATUALIZAÇÃO =====================
+  
   function update(dt) {
     if (!state.playing || state.paused || state.gameOver) return;
 
@@ -224,7 +223,7 @@ if (b.y + b.h >= GROUND_Y || b.y <= CEILING_BUFFER) {
 
     updatePipes(dt);
 
-    // pontuação
+    
     for (const p of state.pipes) {
       if (!p.passed && p.x + PIPE_WIDTH < b.x) {
         p.passed = true;
@@ -242,7 +241,7 @@ if (b.y + b.h >= GROUND_Y || b.y <= CEILING_BUFFER) {
     }
   }
 
-  // ===================== DESENHO =====================
+ 
   // Céu com paralaxe simples
   let skyOffset = 0;
   function drawBackground(dt) {
@@ -329,7 +328,7 @@ if (b.y + b.h >= GROUND_Y || b.y <= CEILING_BUFFER) {
     if (sprite.complete && sprite.src) {
       CTX.drawImage(sprite, 0, 0, b.w, b.h);
     } else {
-      // fallback: passarinho vetorial
+       //passarinho vetorial
       CTX.fillStyle = '#fde047';
       roundRect(0, 0, b.w, b.h, 10);
       // asa
@@ -350,10 +349,7 @@ if (b.y + b.h >= GROUND_Y || b.y <= CEILING_BUFFER) {
       CTX.fill();
     }
 
-    // debug hitbox (comente se não quiser ver)
-    // CTX.globalAlpha = 0.35; CTX.fillStyle = '#ef4444';
-    // const hb = getBirdHitbox(b); CTX.fillRect(hb.x - b.x, hb.y - b.y, hb.w, hb.h);
-
+    
     CTX.restore();
   }
 
@@ -393,7 +389,7 @@ if (b.y + b.h >= GROUND_Y || b.y <= CEILING_BUFFER) {
     CTX.restore();
   }
 
-  // ===================== LOOP =====================
+  //===================== LOOP =====================
   function loop(ts) {
     const t = ts / 1000;
     const dt = state.lastTime ? Math.min(0.033, t - state.lastTime) : 0;
