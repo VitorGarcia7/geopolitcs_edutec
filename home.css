@@ -591,10 +591,13 @@ body{
     height: 320px;
     border-radius: 8px;
     object-fit: cover;
+    margin-top: 50px;
   }
 
-  .inputs .nav-input{
-    cursor: pointer;
+  .radio, .nav-inputs{
+    
+    margin-block-start: 300px;
+  
   }
 
 

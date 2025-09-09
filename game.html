@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="game.css">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Flappy JS — Base</title>
+  <title>Flappy Edutec</title>
   <style>
     :root {
       --bg: #0e1726;
@@ -30,7 +30,7 @@
     .row { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
     .badges { display: flex; gap: 8px; flex-wrap: wrap; }
     .badge { font-size: 12px; padding: 6px 10px; border-radius: 999px; border: 1px solid #334155; background: #0b1424; color: #cbd5e1; }
-    canvas { width: 100%; height: auto; display: block; border-radius: 12px; background: linear-gradient(180deg, #77b7ff 0%, #7dd3fc 40%, #fef3c7 100%); border: 1px solid #1f2937; }
+    canvas { width: 100%; height: auto; display: block; border-radius: 12px; background: linear-gradient(180deg, #3d6cec 0%, #7d8afc 40%, #fef3c7 100%); border: 1px solid #1f2937; }
     .controls { font-size: 14px; opacity: .9; }
     .controls kbd { background: #0b1424; border: 1px solid #334155; border-bottom-width: 2px; border-radius: 6px; padding: 2px 6px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
     .small { font-size: 12px; opacity: .8; }
@@ -44,7 +44,7 @@
         <div class="badges">
           <span class="badge">Espaço/Click/Tap: Pular</span>
           <span class="badge">R: Reiniciar</span>
-          <span class="badge">P: <Progress></Progress>ausar</span>
+          <span class="badge">P:Pausar</span>
         </div>
       </div>
       <p class="controls"></p>
@@ -87,14 +87,15 @@
   const GROUND_Y = 600;   // "chão" imaginário para colisão
 
   // Visual
-  const COLORS = {
-    pipe: '#9ca3af', // cinza
-    pipeDark: '#6b7280',
-    cloud: '#ffffff',
-    text: '#0b1220',
-    hud: '#e5e7eb',
-    shadow: 'rgba(0,0,0,.25)'
-  };
+ const COLORS = {
+  pipe: '#4eb464',       // verde claro
+  pipeDark: '#1f6d2d',   // verde ainda mais escuro
+  cloud: '#ffffff',
+  text: '#0b1220',
+  hud: '#e5e7eb',
+  shadow: 'rgba(0,0,0,.25)'
+};
+
 
   // ===================== ESTADO =====================
   let state = {

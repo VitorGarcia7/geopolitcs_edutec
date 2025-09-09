@@ -1,6 +1,8 @@
 @import "./universal.css";
 @import "./universal2.css";
 
+
+
 .anexao {
   background-color: #1f6d2d;
   display: grid;
@@ -19,7 +21,7 @@
 .sobreposicao {
   position: absolute;
   width: 108rem;
-  height: 82.375rem;
+  
   top: 0;
   left: 0;
 }
@@ -63,7 +65,6 @@
   top: 44.75rem;
   font-family: var(--p-PAR-GRAFO-font-family);
   font-weight: var(--p-PAR-GRAFO-font-weight);
-  margin-top: 3.125rem;
   color: #ffffff;
   font-size: var(--p-PAR-GRAFO-font-size);
   letter-spacing: var(--p-PAR-GRAFO-letter-spacing);
@@ -78,7 +79,6 @@
   top: 44.75rem;
   font-family: var(--p-PAR-GRAFO-font-family);
   font-weight: var(--p-PAR-GRAFO-font-weight);
-  margin-top: 3.125rem;
   color: #ffffff;
   font-size: var(--p-PAR-GRAFO-font-size);
   letter-spacing: var(--p-PAR-GRAFO-letter-spacing);
@@ -154,7 +154,7 @@
   position: absolute;
   width: 17.5rem;
   height: 11.25rem;
-  top: 35rem;
+  top: 510px;
   left: 56.875rem;
 }
 
@@ -162,7 +162,7 @@
   position: absolute;
   width: 17.5rem;
   height: 11.875rem;
-  top: 34.375rem;
+  top: 500px;
   left: 77rem;
 }
 
