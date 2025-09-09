@@ -8,129 +8,133 @@
       name="desc"
       content="Explore os diferentes aspectos da Guerra da Ucrânia através de temas interativos sobre Criméia, Donbass, aspectos humanitários, OTAN e UE, impactos ambientais e jogos educativos."
     />
+    <script src="siema.min.js" defer></script>
+    <script src="home.js" defer></script>
    
     <link rel="stylesheet" href="home.css" />
   </head>
-  <body>
-    <main class="home">
-      <div class="div">
-        <section class="overlap">
-          <div class="tela-fundo-verde" aria-hidden="true"></div>
-          <div class="escolha-seu-tema">
-            <div class="overlap-group">
-              <div class="fundo" aria-hidden="true"></div>
-              <h1 class="text-wrapper">Escolha seu tema:</h1>
-            </div>
-          </div>
-          <div class="fundo-para-topicos" aria-hidden="true">
-
-            <div class="inputs">
-              <input class="nav-input" type="radio" name="slides" id="s1" >
-              <input class="nav-input" type="radio" name="slides" id="s2">
-              <input class="nav-input" type="radio" name="slides" id="s3">
-              <input class="nav-input" type="radio" name="slides" id="s4">
-              <input class="nav-input" type="radio" name="slides" id="s5">
-             
-             
-          
-              <div class="carrossel" aria-label="Carrossel">
-          
-                <div class="slides">
-          
-                  <div class="slide">
-                    <a href="crimeia.html" aria-label="Abrir Página 1">
-                      <img src="./assets/img1carrossel.png" alt="Descrição da foto 1" />
-                    </a>
-                  </div>
-              
-                  <div class="slide">
-                    <a href="donbass.html" aria-label="Abrir Página 2">
-                      <img src="./assets/img2carrossel.png" alt="Descrição da foto 2" />
-                    </a>
-                  </div>
-                 
-                  <div class="slide">
-                    <a href="humanidade.html" aria-label="Abrir Página 3">
-                      <img src="./assets/img3carrossel.png" alt="Descrição da foto 3" />
-                    </a>
-                  </div>
-                 
-                  <div class="slide">
-                    <a href="otan.html" aria-label="Abrir Página 4">
-                      <img src="./assets/img4carrossel.png" alt="Descrição da foto 4" />
-                    </a>
-                  </div>
-                 
-                  <div class="slide">
-                    <a href="impactos.html" aria-label="Abrir Página 5">
-                      <img src="./assets/img5carrossel.png" alt="Descrição da foto 5" />
-                    </a>
-                  </div>
-                </div>
-          
-          
-                <div class="pontos">
-                  <label class="dot" for="s1"><span class="sr-only"></span></label>
-                  <label class="dot" for="s2"><span class="sr-only"></span></label>
-                  <label class="dot" for="s3"><span class="sr-only"></span></label>
-                  <label class="dot" for="s4"><span class="sr-only"></span></label>
-                  <label class="dot" for="s5"><span class="sr-only"></span></label>
-          
+  <div id="page">
+    <body>
+        <main class="home">
+          <div class="div">
+            <section class="overlap">
+              <div class="tela-fundo-verde" aria-hidden="true"></div>
+              <div class="escolha-seu-tema">
+                <div class="overlap-group">
+                  <div class="fundo" aria-hidden="true"></div>
+                  <h1 class="text-wrapper">Escolha seu tema:</h1>
                 </div>
               </div>
-            </div>
-          </div>
-        
-          
-          
-        </section>
-        <section class="overlap-2">
-          <img
-            class="img-3"
-            src="https://c.animaapp.com/mf8whydshUZ7Mu/img/imagem-fundo-home.png"
-            alt="Imagem de fundo representando a Guerra da Ucrânia"
-          />
-          <img
-            class="img-3"
-            src="https://c.animaapp.com/mf8whydshUZ7Mu/img/sombra-para-imagem-principal.png"
-            alt=""
-            aria-hidden="true"
-          />
-         <div>
-          <button class="escrole" aria-label="Rolar para baixo para ver mais conteúdo" type="button">
-            <img src="https://c.animaapp.com/mf8whydshUZ7Mu/img/escrole.png" alt="Ícone de rolagem" />
-          </button>
-          </div>
-          <p class="vladimir-p-tim-e">
-            <span class="span">Vladimir Pátim</span>
-            <span class="text-wrapper-2"> e </span>
-            <span class="span">Volodmir Camalensky</span>
-            <span class="text-wrapper-2"> são </span>
-            <span class="span">inimigos</span>
-            <span class="text-wrapper-2"> mortais, que se desentenderam após um </span>
-            <span class="span">grande conflito.</span>
-          </p>
-          <p class="p">Venha conferir essa grande batalha!</p>
-          <div class="sombreamento-header" aria-hidden="true"></div>
-        </section>
-        <header class="header" role="banner">
-          <nav class="nav-menu" role="navigation" aria-label="Menu principal">
-           
-            <div class="header-fixo">
-              <header class="header">
+              <div class="fundo-para-topicos" aria-hidden="true">
+    
+                <div class="inputs">
+                  <input class="nav-input" type="radio" name="slides" id="s1" >
+                  <input class="nav-input" type="radio" name="slides" id="s2">
+                  <input class="nav-input" type="radio" name="slides" id="s3">
+                  <input class="nav-input" type="radio" name="slides" id="s4">
+                  <input class="nav-input" type="radio" name="slides" id="s5">
+                 
+                 
+              
+                  <div class="carrossel" aria-label="Carrossel">
+              
+                    <div class="slides">
+              
+                      <div class="slide">
+                        <a href="crimeia.html" aria-label="Abrir Página 1">
+                          <img src="./assets/img1carrossel.png" alt="Descrição da foto 1" />
+                        </a>
+                      </div>
+                  
+                      <div class="slide">
+                        <a href="donbass.html" aria-label="Abrir Página 2">
+                          <img src="./assets/img2carrossel.png" alt="Descrição da foto 2" />
+                        </a>
+                      </div>
+                     
+                      <div class="slide">
+                        <a href="humanidade.html" aria-label="Abrir Página 3">
+                          <img src="./assets/img3carrossel.png" alt="Descrição da foto 3" />
+                        </a>
+                      </div>
+                     
+                      <div class="slide">
+                        <a href="otan.html" aria-label="Abrir Página 4">
+                          <img src="./assets/img4carrossel.png" alt="Descrição da foto 4" />
+                        </a>
+                      </div>
+                     
+                      <div class="slide">
+                        <a href="impactos.html" aria-label="Abrir Página 5">
+                          <img src="./assets/img5carrossel.png" alt="Descrição da foto 5" />
+                        </a>
+                      </div>
+                    </div>
+              
+              
+                    <div class="pontos">
+                      <label class="dot" for="s1"><span class="sr-only"></span></label>
+                      <label class="dot" for="s2"><span class="sr-only"></span></label>
+                      <label class="dot" for="s3"><span class="sr-only"></span></label>
+                      <label class="dot" for="s4"><span class="sr-only"></span></label>
+                      <label class="dot" for="s5"><span class="sr-only"></span></label>
+              
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              
+              
+            </section>
+            <section class="overlap-2">
+              <img
+                class="img-3"
+                src="https://c.animaapp.com/mf8whydshUZ7Mu/img/imagem-fundo-home.png"
+                alt="Imagem de fundo representando a Guerra da Ucrânia"
+              />
+              <img
+                class="img-3"
+                src="https://c.animaapp.com/mf8whydshUZ7Mu/img/sombra-para-imagem-principal.png"
+                alt=""
+                aria-hidden="true"
+              />
+             <div>
+              <button class="escrole" aria-label="Rolar para baixo para ver mais conteúdo" type="button">
+                <img src="https://c.animaapp.com/mf8whydshUZ7Mu/img/escrole.png" alt="Ícone de rolagem" />
+              </button>
+              </div>
+              <p class="vladimir-p-tim-e">
+                <span class="span">Vladimir Pátim</span>
+                <span class="text-wrapper-2"> e </span>
+                <span class="span">Volodmir Camalensky</span>
+                <span class="text-wrapper-2"> são </span>
+                <span class="span">inimigos</span>
+                <span class="text-wrapper-2"> mortais, que se desentenderam após um </span>
+                <span class="span">grande conflito.</span>
+              </p>
+              <p class="p">Venha conferir essa grande batalha!</p>
+              <div class="sombreamento-header" aria-hidden="true"></div>
+            </section>
+            <header class="header" role="banner">
+              <nav class="nav-menu" role="navigation" aria-label="Menu principal">
                
-                <a href="./crimeia.html" class="crimeia">Crimeia</a>
-                <a href="./donbass.html" class="donbass">Donbass</a>
-                <a href="./humanidade.html" class="humanidade">Humanidade</a>
-                <a href="./otan.html" class="otan-e-ue">OTAN e UE</a>
-                <a href="./impactos.html" class="impactos">Impactos</a>
-                <a href="./inicioJogo.html" class="game">Game</a>
-                <a href="./home.html"><img src="./assets/logo.png" alt="Logo war"></a>
-              </header>
-            </div>
-          </nav>
-        </header>
-      </div>
-    </main>
-  </body>
+                <div class="header-fixo">
+                  <header class="header">
+                   
+                    <a href="./crimeia.html" class="crimeia">Crimeia</a>
+                    <a href="./donbass.html" class="donbass">Donbass</a>
+                    <a href="./humanidade.html" class="humanidade">Humanidade</a>
+                    <a href="./otan.html" class="otan-e-ue">OTAN e UE</a>
+                    <a href="./impactos.html" class="impactos">Impactos</a>
+                    <a href="./inicioJogo.html" class="game">Game</a>
+                    <a href="#page"><img src="./assets/logo.png" alt="Logo war"></a>
+                  </header>
+                </div>
+              </nav>
+            </header>
+          </div>
+        </main>
+    </body>
+  </div>
 </html>

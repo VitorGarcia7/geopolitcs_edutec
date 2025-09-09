@@ -1,1 +1,3 @@
-new Siema()
+const mySiema = new Siema({
+    loop: true
+  });

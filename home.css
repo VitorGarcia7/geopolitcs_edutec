@@ -580,10 +580,7 @@ body{
     display: flex;
     gap: 10px; 
     transition: transform 0.6s ease-in-out;
-  }
-
-  .inputs .nav-input{
-    cursor: pointer;
+    
   }
   
   .slide {
@@ -595,7 +592,12 @@ body{
     border-radius: 8px;
     object-fit: cover;
   }
-  
+
+  .inputs .nav-input{
+    cursor: pointer;
+  }
+
+
   #s1:checked ~ .carrossel .slides { transform: translateX(0%); }
   #s2:checked ~ .carrossel .slides { transform: translateX(-33.333%); }
   #s3:checked ~ .carrossel .slides { transform: translateX(-66.666%); }
