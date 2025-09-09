@@ -1,0 +1,481 @@
+@import "./universal.css";
+@import "./universal2.css";
+
+body{
+  background-color: #1f6d2d;
+}
+.anexao {
+  background-color: #1f6d2d;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.div {
+  background-color: #1f6d2d;
+  width: 108rem;
+  height: 118.75rem;
+  position: relative;
+}
+
+.sobreposicao {
+  position: absolute;
+  width: 108rem;
+  height: 82.38rem;
+  top: 0;
+  left: 0;
+}
+
+.fundo-do-texto {
+  position: absolute;
+  width: 97.81rem;
+  height: 24.75rem;
+  top: 42.38rem;
+  left: 5.13rem;
+  background-color: #d9d9d93d;
+  border-radius: 1.25rem;
+}
+
+.imagem-anexacao-crimeia {
+  position: absolute;
+  width: 108rem;
+  height: 36.94rem;
+  top: 0;
+  left: 0;
+}
+
+.sombra {
+  position: absolute;
+  width: 108rem;
+  height: 49.38rem;
+  top: 31.75rem;
+  left: 0;
+  transform: rotate(180deg);
+  background: linear-gradient(
+    180deg,
+    rgba(102, 102, 102, 0) 70%,
+    rgba(0, 0, 0, 0.9) 86%
+  );
+}
+
+.texto1 {
+  width: 42rem;
+  left: 57.25rem;
+  position: absolute;
+  top: 44.75rem;
+  font-family: var(--p-PAR-GRAFO-font-family);
+  font-weight: var(--p-PAR-GRAFO-font-weight);
+  color: #ffffff;
+  font-size: var(--p-PAR-GRAFO-font-size);
+  letter-spacing: var(--p-PAR-GRAFO-letter-spacing);
+  line-height: var(--p-PAR-GRAFO-line-height);
+  font-style: var(--p-PAR-GRAFO-font-style);
+}
+
+.texto2 {
+  width: 40rem;
+  left: 8.75rem;
+  position: absolute;
+  top: 44.75rem;
+  font-family: var(--p-PAR-GRAFO-font-family);
+  font-weight: var(--p-PAR-GRAFO-font-weight);
+  color: #ffffff;
+  font-size: var(--p-PAR-GRAFO-font-size);
+  letter-spacing: var(--p-PAR-GRAFO-letter-spacing);
+  line-height: var(--p-PAR-GRAFO-line-height);
+  font-style: var(--p-PAR-GRAFO-font-style);
+}
+
+.sombra-pra-imagem {
+  position: absolute;
+  width: 108rem;
+  height: 36.5rem;
+  top: 0;
+  left: 0;
+}
+
+.anexacao {
+  position: absolute;
+  top: 26.88rem;
+  left: 3.06rem;
+  font-family: "League Spartan", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 8rem;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.saiba-mais {
+  position: absolute;
+  top: 71.25rem;
+  left: 3.06rem;
+  font-family: "League Spartan", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 8rem;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.com-videos {
+  position: absolute;
+  top: 76.88rem;
+  left: 3.06rem;
+  font-family: "League Spartan", Helvetica;
+  font-weight: 200;
+  color: #ffffff;
+  font-size: 6rem;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.saiba-maiz {
+  position: absolute;
+  top: 115.63rem;
+  left: 3.06rem;
+  font-family: "League Spartan", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 8rem;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.com-filmes {
+  position: absolute;
+  top: 121.88rem;
+  left: 3.06rem;
+  font-family: "League Spartan", Helvetica;
+  font-weight: 200;
+  color: #ffffff;
+  font-size: 6rem;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.fundo-do-texto2 {
+  position: absolute;
+  width: 97.81rem;
+  height: 40.63rem;
+  bottom: 31.25rem;
+  top: 128.13rem;
+  left: 5.13rem;
+  background-color: #d9d9d93d;
+  border-radius: 1.25rem;
+}
+
+.na-crimeia {
+  position: absolute;
+  top: 33.69rem;
+  left: 3.63rem;
+  font-family: "League Spartan", Helvetica;
+  font-weight: 200;
+  color: #ffffff;
+  font-size: 6rem;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.guerra-no-donbass .filme {
+  width: 20.63rem;
+  left: 12.69rem;
+  position: absolute;
+  height: 28.75rem;
+  top: 21.13rem;
+}
+
+.kratos-e-zeus {
+  position: absolute;
+  width: 30rem;
+  height: 11.25rem;
+  top: 117.81rem;
+  left: 68.75rem;
+}
+
+.grupo {
+  position: absolute;
+  width: 20.81rem;
+  height: 11.13rem;
+  top: 10.88rem;
+  left: 8.75rem;
+}
+
+.frase-naruto {
+  position: relative;
+  width: 20.69rem;
+  height: 11.88rem;
+  top: 97.5rem;
+  left: 78.13rem;
+  background-image: url(https://c.animaapp.com/mej4ihxtLPmrO9/img/balao-de-fala-naruto.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.paragrafo {
+  position: absolute;
+  width: 6.63rem;
+  top: 2.81rem;
+  left: 6.75rem;
+  font-family: "Pixelify Sans", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 1.25rem;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.video1 {
+  position: absolute;
+  width: 26.31rem;
+  top: 84.63rem;
+  left: 70rem;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.5rem;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.video2 {
+  position: absolute;
+  width: 26.31rem;
+  top: 84.63rem;
+  left: 35rem;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.5rem;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.video3 {
+  position: absolute;
+  width: 21.63rem;
+  top: 84.81rem;
+  left: 3.75rem;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.5rem;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.Filme1 {
+  position: absolute;
+  width: 16.1973rem;       
+  height: 25.2549rem;      
+  border-radius: 1rem;
+  object-fit: cover;
+  top: 134rem;
+  left: 21.625rem;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.5rem;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.Filme2 {
+  position: absolute;
+  width: 16.1325rem;       
+  height: 25.2549rem;      
+  border-radius: 1rem;
+  object-fit: cover;
+  top: 134rem;
+  left: 45.5rem;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.5rem;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.Filme3 {
+  position: absolute;
+  width: 16.1973rem;       
+  height: 24.9269rem;      
+  border-radius: 1rem;
+  object-fit: cover;
+  top: 134rem;
+  left: 70.375rem;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.5rem;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.disputa {
+  position: absolute;
+  width: 28.69rem;
+  height: 18.63rem;
+  top: 86.88rem;
+  left: 3.75rem;
+  border-radius: 1.25rem;
+  object-fit: cover;
+}
+
+.crise-na-ucrania {
+  position: absolute;
+  width: 32.19rem;
+  height: 18.63rem;
+  top: 86.88rem;
+  left: 35rem;
+  border-radius: 1.25rem;
+  object-fit: cover;
+}
+
+.russia-e-ucrania {
+  position: absolute;
+  width: 29.75rem;
+  height: 18.63rem;
+  top: 86.88rem;
+  left: 70rem;
+  border-radius: 1.25rem;
+  object-fit: cover;
+}
+
+.header-fixo {
+  position: fixed;
+  width: 91.69rem;
+  height: 13.25rem;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  position: relative;
+  width: 91.69rem;
+  background-color: transparent;
+}
+
+.impactos {
+  position: absolute;
+  width: 9.94rem;
+  top: 5.5rem;
+  left: 72rem;
+  opacity: 0.5;
+  font-family: var(--h1-TITULO-font-family);
+  font-weight: var(--h1-TITULO-font-weight);
+  color: #ffffff;
+  font-size: var(--h1-TITULO-font-size);
+  text-align: center;
+  letter-spacing: var(--h1-TITULO-letter-spacing);
+  line-height: var(--h1-TITULO-line-height);
+  white-space: nowrap;
+  font-style: var(--h1-TITULO-font-style);
+}
+
+.game {
+  position: absolute;
+  width: 6.63rem;
+  top: 5.5rem;
+  left: 85.06rem;
+  opacity: 0.5;
+  font-family: var(--h1-TITULO-font-family);
+  font-weight: var(--h1-TITULO-font-weight);
+  color: #ffffff;
+  font-size: var(--h1-TITULO-font-size);
+  text-align: center;
+  letter-spacing: var(--h1-TITULO-letter-spacing);
+  line-height: var(--h1-TITULO-line-height);
+  white-space: nowrap;
+  font-style: var(--h1-TITULO-font-style);
+}
+
+.otan-e-ue {
+  position: absolute;
+  width: 11.88rem;
+  top: 5.5rem;
+  left: 57rem;
+  opacity: 0.5;
+  font-family: var(--h1-TITULO-font-family);
+  font-weight: var(--h1-TITULO-font-weight);
+  color: #ffffff;
+  font-size: var(--h1-TITULO-font-size);
+  text-align: center;
+  letter-spacing: var(--h1-TITULO-letter-spacing);
+  line-height: var(--h1-TITULO-line-height);
+  white-space: nowrap;
+  font-style: var(--h1-TITULO-font-style);
+}
+
+.humanidade {
+  position: absolute;
+  width: 14.19rem;
+  top: 5.5rem;
+  left: 39.69rem;
+  opacity: 0.5;
+  font-family: var(--h1-TITULO-font-family);
+  font-weight: var(--h1-TITULO-font-weight);
+  color: #ffffff;
+  font-size: var(--h1-TITULO-font-size);
+  text-align: center;
+  letter-spacing: var(--h1-TITULO-letter-spacing);
+  line-height: var(--h1-TITULO-line-height);
+  white-space: nowrap;
+  font-style: var(--h1-TITULO-font-style);
+}
+
+.donbass {
+  position: absolute;
+  width: 9.19rem;
+  top: 5.63rem;
+  left: 27.38rem;
+  opacity: 0.5;
+  font-family: var(--h1-TITULO-font-family);
+  font-weight: var(--h1-TITULO-font-weight);
+  color: #ffffff;
+  font-size: var(--h1-TITULO-font-size);
+  text-align: center;
+  letter-spacing: var(--h1-TITULO-letter-spacing);
+  line-height: var(--h1-TITULO-line-height);
+  white-space: nowrap;
+  font-style: var(--h1-TITULO-font-style);
+}
+
+.crimeia {
+  position: absolute;
+  width: 8.63rem;
+  top: 5.63rem;
+  left: 15.63rem;
+  opacity: 0.5;
+  font-family: var(--h1-TITULO-font-family);
+  font-weight: var(--h1-TITULO-font-weight);
+  color: #ffffff;
+  font-size: var(--h1-TITULO-font-size);
+  text-align: center;
+  letter-spacing: var(--h1-TITULO-letter-spacing);
+  line-height: var(--h1-TITULO-line-height);
+  white-space: nowrap;
+  font-style: var(--h1-TITULO-font-style);
+}
+
+.logo {
+  position: absolute;
+  width: 12.5rem;
+  height: 13.25rem;
+  top: 0;
+  left: 0;
+}

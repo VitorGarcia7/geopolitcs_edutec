@@ -1,0 +1,15 @@
+:root { 
+    --p-PAR-GRAFO-font-family: "Gabarito", Helvetica; 
+    --p-PAR-GRAFO-font-weight: 400; 
+    --p-PAR-GRAFO-font-size: 24px; 
+    --p-PAR-GRAFO-letter-spacing: 2.4000000000000004px; 
+    --p-PAR-GRAFO-line-height: 140%; 
+    --p-PAR-GRAFO-font-style: normal; 
+    --h1-TITULO-font-family: "League Spartan", Helvetica; 
+    --h1-TITULO-font-weight: 700; 
+    --h1-TITULO-font-size: 40px; 
+    --h1-TITULO-letter-spacing: 0px; 
+    --h1-TITULO-line-height: normal; 
+    --h1-TITULO-font-style: normal; 
+  }
+  

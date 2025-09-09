@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./assets/fundo\ animado.png) lightgray 50% / cover no-repeat;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body h1{
+    font-family: "Pixelify Sans", sans-serif;
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+}
+
+body p{
+    font-family: "League spartan", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.personagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+    h1 {
+        font-size: 128px;
+        font-weight: 500;
+    }
+}
+
+.pato{
+    width: 320px;
+    height: 270px;
+    margin-top: -200px;
+    margin-left: -100px;
+}
+
+.camaleao{
+    width: 320px;
+    height: 270px;
+    margin-top: -200px;
+    margin-right: -100px;
+}
+
+.play a{    
+    font-family: "Pixelify Sans";
+    color: white;
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+    padding-inline: 1rem;
+    line-height: 50%;
+   
+    font-size: 96px;
+    font-weight: 500;
+    text-decoration: none;
+    width: fit-content;
+    border-radius: 15px;
+    background-color: #FFC31D;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    img {
+        max-width: 80px;
+    }
+}

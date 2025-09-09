@@ -1,0 +1,395 @@
+@import "./universal.css";
+@import "./universal2.css";
+
+.anexao {
+  background-color: #1f6d2d;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.div {
+  background-color: #1f6d2d;
+  width: 108rem;
+  height: 190rem;
+  position: relative;
+}
+
+.sobreposicao {
+  position: absolute;
+  width: 108rem;
+  height: 82.375rem;
+  top: 0;
+  left: 0;
+}
+
+.fundo-do-texto {
+  position: absolute;
+  width: 97.8125rem;
+  height: 24.75rem;
+  top: 42.375rem;
+  margin-top: 3.125rem;
+  left: 5.125rem;
+  background-color: #d9d9d93d;
+  border-radius: 1.25rem;
+}
+
+.imagem-anexacao-crimeia {
+  position: absolute;
+  width: 108rem;
+  height: 36.9375rem;
+  top: 0;
+  left: 0;
+}
+
+.sombra {
+  position: absolute;
+  width: 108rem;
+  height: 49.375rem;
+  top: 31.75rem;
+  left: 0;
+  transform: rotate(180deg);
+  background: linear-gradient(
+    180deg,
+    rgba(102, 102, 102, 0) 70%,
+    rgba(0, 0, 0, 0.9) 86%
+  );
+}
+
+.texto1 {
+  width: 42rem;
+  left: 57.25rem;
+  position: absolute;
+  top: 44.75rem;
+  font-family: var(--p-PAR-GRAFO-font-family);
+  font-weight: var(--p-PAR-GRAFO-font-weight);
+  margin-top: 3.125rem;
+  color: #ffffff;
+  font-size: var(--p-PAR-GRAFO-font-size);
+  letter-spacing: var(--p-PAR-GRAFO-letter-spacing);
+  line-height: var(--p-PAR-GRAFO-line-height);
+  font-style: var(--p-PAR-GRAFO-font-style);
+}
+
+.texto2 {
+  width: 40rem;
+  left: 8.75rem;
+  position: absolute;
+  top: 44.75rem;
+  font-family: var(--p-PAR-GRAFO-font-family);
+  font-weight: var(--p-PAR-GRAFO-font-weight);
+  margin-top: 3.125rem;
+  color: #ffffff;
+  font-size: var(--p-PAR-GRAFO-font-size);
+  letter-spacing: var(--p-PAR-GRAFO-letter-spacing);
+  line-height: var(--p-PAR-GRAFO-line-height);
+  font-style: var(--p-PAR-GRAFO-font-style);
+}
+
+.sombra-pra-imagem {
+  position: absolute;
+  width: 108rem;
+  height: 36.5rem;
+  top: 0;
+  left: 0;
+}
+
+.anexao .anexacao {
+  position: absolute;
+  top: 26.25rem;
+  left: 3.0625rem;
+  font-family: "League Spartan", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 8rem;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.anexao .saiba-mais {
+  position: absolute;
+  top: 71.25rem;
+  left: 3.0625rem;
+  font-family: "League Spartan", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 8rem;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.anexao .com-videos {
+  position: absolute;
+  top: 76.875rem;
+  left: 3.0625rem;
+  font-family: "League Spartan", Helvetica;
+  font-weight: 200;
+  color: #ffffff;
+  font-size: 6rem;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.anexao .na-crimeia {
+  position: absolute;
+  top: 33.6875rem;
+  left: 3.625rem;
+  font-family: "League Spartan", Helvetica;
+  font-weight: 200;
+  color: #ffffff;
+  font-size: 6rem;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.scorpion {
+  position: absolute;
+  width: 17.5rem;
+  height: 11.25rem;
+  top: 35rem;
+  left: 56.875rem;
+}
+
+.subzero {
+  position: absolute;
+  width: 17.5rem;
+  height: 11.875rem;
+  top: 34.375rem;
+  left: 77rem;
+}
+
+.grupo {
+  position: absolute;
+  width: 20.8125rem;
+  height: 11.125rem;
+  top: 10.875rem;
+  left: 8.75rem;
+}
+
+.frase-scorpion {
+  position: relative;
+  width: 20.6875rem;
+  height: 11.875rem;
+  top: 15.625rem;
+  left: 53.125rem;
+  background-image: url(https://c.animaapp.com/mej4ihxtLPmrO9/img/balao-de-fala-naruto.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.paragrafo {
+  position: absolute;
+  width: 6.625rem;
+  top: 3.4375rem;
+  left: 6.75rem;
+  font-family: "Pixelify Sans", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 1.25rem;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.video1 {
+  position: absolute;
+  width: 26.3125rem;
+  top: 85rem;
+  left: 70.625rem;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.5rem;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.video2 {
+  position: absolute;
+  width: 26.3125rem;
+  top: 85rem;
+  left: 35rem;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.5rem;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.video3 {
+  position: absolute;
+  width: 21.625rem;
+  top: 83.125rem;
+  left: 3.0625rem;
+  font-family: "Gabarito", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.5rem;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.disputa {
+  position: absolute;
+  width: 28.6875rem;
+  height: 18.625rem;
+  top: 86.875rem;
+  left: 3.0625rem;
+  border-radius: 1.25rem;
+  object-fit: cover;
+}
+
+.crise-na-ucrania {
+  position: absolute;
+  width: 32.1875rem;
+  height: 18.625rem;
+  top: 86.875rem;
+  left: 35rem;
+  border-radius: 1.25rem;
+  object-fit: cover;
+}
+
+.anexao .russia-e-ucrania {
+  position: absolute;
+  width: 29.75rem;
+  height: 18.625rem;
+  top: 86.875rem;
+  left: 70.625rem;
+  border-radius: 1.25rem;
+  object-fit: cover;
+}
+
+.anexao .header-fixo {
+  position: fixed;
+  width: 91.6875rem;
+  height: 13.25rem;
+  top: 0;
+  left: 0;
+}
+
+.anexao .header {
+  position: relative;
+  width: 91.6875rem;
+  background-color: transparent;
+}
+
+.anexao .impactos {
+  position: absolute;
+  width: 9.9375rem;
+  top: 5.5rem;
+  left: 72rem;
+  opacity: 0.5;
+  font-family: var(--h1-TITULO-font-family);
+  font-weight: var(--h1-TITULO-font-weight);
+  color: #ffffff;
+  font-size: var(--h1-TITULO-font-size);
+  text-align: center;
+  letter-spacing: var(--h1-TITULO-letter-spacing);
+  line-height: var(--h1-TITULO-line-height);
+  white-space: nowrap;
+  font-style: var(--h1-TITULO-font-style);
+}
+
+.anexao .game {
+  position: absolute;
+  width: 6.625rem;
+  cursor: pointer;
+  top: 5.5rem;
+  left: 85.0625rem;
+  opacity: 0.5;
+  font-family: var(--h1-TITULO-font-family);
+  font-weight: var(--h1-TITULO-font-weight);
+  color: #ffffff;
+  font-size: var(--h1-TITULO-font-size);
+  text-align: center;
+  letter-spacing: var(--h1-TITULO-letter-spacing);
+  line-height: var(--h1-TITULO-line-height);
+  white-space: nowrap;
+  font-style: var(--h1-TITULO-font-style);
+}
+
+.anexao .otan-e-ue {
+  position: absolute;
+  width: 11.875rem;
+  top: 5.5rem;
+  left: 57rem;
+  opacity: 0.5;
+  font-family: var(--h1-TITULO-font-family);
+  font-weight: var(--h1-TITULO-font-weight);
+  color: #ffffff;
+  font-size: var(--h1-TITULO-font-size);
+  text-align: center;
+  letter-spacing: var(--h1-TITULO-letter-spacing);
+  line-height: var(--h1-TITULO-line-height);
+  white-space: nowrap;
+  font-style: var(--h1-TITULO-font-style);
+}
+
+.anexao .humanidade {
+  position: absolute;
+  width: 14.1875rem;
+  top: 5.5rem;
+  left: 39.6875rem;
+  opacity: 0.5;
+  font-family: var(--h1-TITULO-font-family);
+  font-weight: var(--h1-TITULO-font-weight);
+  color: #ffffff;
+  font-size: var(--h1-TITULO-font-size);
+  text-align: center;
+  letter-spacing: var(--h1-TITULO-letter-spacing);
+  line-height: var(--h1-TITULO-line-height);
+  white-space: nowrap;
+  font-style: var(--h1-TITULO-font-style);
+}
+
+.anexao .donbass {
+  position: absolute;
+  width: 9.1875rem;
+  top: 5.625rem;
+  left: 27.375rem;
+  opacity: 0.5;
+  font-family: var(--h1-TITULO-font-family);
+  font-weight: var(--h1-TITULO-font-weight);
+  color: #ffffff;
+  font-size: var(--h1-TITULO-font-size);
+  text-align: center;
+  letter-spacing: var(--h1-TITULO-letter-spacing);
+  line-height: var(--h1-TITULO-line-height);
+  white-space: nowrap;
+  font-style: var(--h1-TITULO-font-style);
+}
+
+.anexao .crimeia {
+  position: absolute;
+  width: 8.625rem;
+  top: 5.625rem;
+  left: 15.625rem;
+  opacity: 0.5;
+  font-family: var(--h1-TITULO-font-family);
+  font-weight: var(--h1-TITULO-font-weight);
+  color: #ffffff;
+  font-size: var(--h1-TITULO-font-size);
+  text-align: center;
+  letter-spacing: var(--h1-TITULO-letter-spacing);
+  line-height: var(--h1-TITULO-line-height);
+  white-space: nowrap;
+  font-style: var(--h1-TITULO-font-style);
+}
+
+.anexao .logo {
+  position: absolute;
+  width: 12.5rem;
+  height: 13.25rem;
+  top: 0;
+  left: 0;
+}

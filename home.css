@@ -1,0 +1,604 @@
+@import "./universal.css";
+@import "./universal2.css";
+
+html {
+  font-size: 62.5%; 
+}
+body{
+  background-color:  #4eb464;
+}
+.home {
+    background-color: transparent;
+    display: grid;
+    justify-items: center;
+    align-items: start;
+    width: 100vw;
+  
+  }
+  
+  .home .div {
+    overflow: hidden;
+    background: linear-gradient(
+      180deg,
+      rgba(227, 237, 221, 0.63) 15%,
+      rgba(0, 0, 0, 1) 74%
+    );
+    width: 1728px;
+    height: 2340px;
+    position: relative;
+  }
+  
+  .home .overlap {
+    position: absolute;
+    width: 1736px;
+    height: 1224px;
+    top: 1117px;
+    left: -8px;
+  }
+  
+  .home .tela-fundo-verde {
+    position: absolute;
+    width: 1728px;
+    height: 1224px;
+    top: 0;
+    left: 8px;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(31, 109, 45, 1) 100%
+    );
+  }
+  
+  .home .escolha-seu-tema {
+    position: absolute;
+    width: 773px;
+    height: 114px;
+    top: 285px;
+    left: 489px;
+  }
+  
+  .home .overlap-group {
+    position: relative;
+    width: 771px;
+    height: 114px;
+  }
+  
+  .home .fundo {
+    position: absolute;
+    width: 756px;
+    height: 114px;
+    top: 0;
+    left: 0;
+    background-color: #4eb46480;
+    border-radius: 10px;
+  }
+  
+  .home .text-wrapper {
+    position: absolute;
+    width: 764px;
+    top: 15px;
+    left: 7px;
+    font-family: "League Spartan", Helvetica;
+    font-weight: 100;
+    color: #ffffff;
+    font-size: 96px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .fundo-para-topicos {
+    position: absolute;
+    width: 1736px;
+    height: 456px;
+    top: 460px;
+    left: 0;
+    background-color: #d9d9d93d;
+  }
+
+  
+  .home .img-3 {
+    position: absolute;
+    width: 1728px;
+    height: 1117px;
+    top: 0;
+    left: 0;
+  }
+  
+  .home .escrole {
+    position: absolute;
+    width: 39px;
+    height: 40px;
+    top: 1063px;
+    left: 844px;
+  }
+  
+  .home .vladimir-p-tim-e {
+    position: absolute;
+    width: 744px;
+    top: 856px;
+    left: 508px;
+    font-family: "League Spartan", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .span {
+    font-weight: 800;
+  }
+  
+  .home .text-wrapper-2 {
+    font-weight: 600;
+  }
+  
+  .home .p {
+    position: absolute;
+    top: 1004px;
+    left: 470px;
+    font-family: "League Spartan", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .sombreamento-header {
+    position: absolute;
+    width: 1729px;
+    height: 197px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.45) 41%,
+      rgba(102, 102, 102, 0) 90%
+    );
+  }
+  
+  
+  .home .text-wrapper-3 {
+    position: absolute;
+    width: 159px;
+    top: 88px;
+    left: 1152px;
+    opacity: 0.5;
+    font-family: var(--h1-TITULO-font-family);
+    font-weight: var(--h1-TITULO-font-weight);
+    color: #ffffff;
+    font-size: var(--h1-TITULO-font-size);
+    text-align: center;
+    letter-spacing: var(--h1-TITULO-letter-spacing);
+    line-height: var(--h1-TITULO-line-height);
+    white-space: nowrap;
+    font-style: var(--h1-TITULO-font-style);
+  }
+  
+  .home .text-wrapper-4 {
+    position: absolute;
+    width: 106px;
+    top: 88px;
+    left: 1361px;
+    opacity: 0.5;
+    font-family: var(--h1-TITULO-font-family);
+    font-weight: var(--h1-TITULO-font-weight);
+    color: #ffffff;
+    font-size: var(--h1-TITULO-font-size);
+    text-align: center;
+    letter-spacing: var(--h1-TITULO-letter-spacing);
+    line-height: var(--h1-TITULO-line-height);
+    white-space: nowrap;
+    font-style: var(--h1-TITULO-font-style);
+  }
+  
+  .home .text-wrapper-5 {
+    position: absolute;
+    width: 190px;
+    top: 88px;
+    left: 912px;
+    opacity: 0.5;
+    font-family: var(--h1-TITULO-font-family);
+    font-weight: var(--h1-TITULO-font-weight);
+    color: #ffffff;
+    font-size: var(--h1-TITULO-font-size);
+    text-align: center;
+    letter-spacing: var(--h1-TITULO-letter-spacing);
+    line-height: var(--h1-TITULO-line-height);
+    white-space: nowrap;
+    font-style: var(--h1-TITULO-font-style);
+  }
+  
+  .home .text-wrapper-6 {
+    position: absolute;
+    width: 227px;
+    top: 88px;
+    left: 635px;
+    opacity: 0.5;
+    font-family: var(--h1-TITULO-font-family);
+    font-weight: var(--h1-TITULO-font-weight);
+    color: #ffffff;
+    font-size: var(--h1-TITULO-font-size);
+    text-align: center;
+    letter-spacing: var(--h1-TITULO-letter-spacing);
+    line-height: var(--h1-TITULO-line-height);
+    white-space: nowrap;
+    font-style: var(--h1-TITULO-font-style);
+  }
+  
+  .home .text-wrapper-7 {
+    position: absolute;
+    width: 147px;
+    top: 90px;
+    left: 438px;
+    opacity: 0.5;
+    font-family: var(--h1-TITULO-font-family);
+    font-weight: var(--h1-TITULO-font-weight);
+    color: #ffffff;
+    font-size: var(--h1-TITULO-font-size);
+    text-align: center;
+    letter-spacing: var(--h1-TITULO-letter-spacing);
+    line-height: var(--h1-TITULO-line-height);
+    white-space: nowrap;
+    font-style: var(--h1-TITULO-font-style);
+  }
+  
+  .home .text-wrapper-8 {
+    position: absolute;
+    width: 138px;
+    top: 90px;
+    left: 250px;
+    opacity: 0.5;
+    font-family: var(--h1-TITULO-font-family);
+    font-weight: var(--h1-TITULO-font-weight);
+    color: #ffffff;
+    font-size: var(--h1-TITULO-font-size);
+    text-align: center;
+    letter-spacing: var(--h1-TITULO-letter-spacing);
+    line-height: var(--h1-TITULO-line-height);
+    white-space: nowrap;
+    font-style: var(--h1-TITULO-font-style);
+  }
+  
+  .home .logo {
+    position: absolute;
+    width: 200px;
+    height: 212px;
+    top: 0;
+    left: 0;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  
+  .tema-item {
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+  
+  .tema-item:hover,
+  .tema-item:focus {
+    transform: scale(1.05);
+    opacity: 0.9;
+    outline: 2px solid #4a90e2;
+    outline-offset: 4px;
+  }
+  
+  .carrossel {
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+  
+
+  .escrole {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .escrole:hover,
+  .escrole:focus {
+    transform: scale(1.1);
+    outline-offset: 4px;
+  }
+  
+  .escrole img {
+    width: 39px;
+    height: 40px;
+    display: block;
+  }
+  
+  .nav-menu {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .nav-list li {
+    display: inline-block;
+  }
+  
+  .nav-list a {
+    color: inherit;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+  }
+  
+  .nav-list a:hover,
+  .nav-list a:focus {
+    opacity: 1;
+    outline-offset: 2px;
+  }
+  
+  @media (max-width: 1728px) {
+    .home .div {
+      width: 100vw;
+      max-width: 1728px;
+    }
+  
+    .home .overlap {
+      width: 100vw;
+      max-width: 1736px;
+    }
+  
+    .home .tela-fundo-verde {
+      width: 100vw;
+      max-width: 1728px;
+    }
+  
+    .home .fundo-para-topicos {
+      width: 100vw;
+      max-width: 1736px;
+    }
+  
+    .home .carrosel-de-temas {
+      width: calc(100vw - 41px);
+      max-width: 1687px;
+    }
+  
+    .home .overlap-2 {
+      width: 100vw;
+      max-width: 1729px;
+    }
+  
+    .home .img-3 {
+      width: 100vw;
+      max-width: 1728px;
+    }
+  
+    .home .sombreamento-header {
+      width: 100vw;
+      max-width: 1729px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .home .carrosel-de-temas {
+      gap: 20px;
+      padding: 0 20px;
+    }
+  
+    .home .crimia-carrosel,
+    .home .img,
+    .home .img-2 {
+      width: 300px;
+      height: 227px;
+    }
+  
+    .home .text-wrapper {
+      font-size: 48px;
+    }
+  
+    .home .vladimir-p-tim-e {
+      font-size: 24px;
+      width: 90%;
+      left: 5%;
+    }
+  
+    .home .p {
+      font-size: 32px;
+      left: 5%;
+      width: 90%;
+      text-align: center;
+      white-space: normal;
+    }
+  
+    .home .header {
+      width: 100vw;
+    }
+  
+    .nav-list {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+  
+    .nav-list a {
+      font-size: 24px;
+      padding: 5px 10px;
+    }
+  }
+  .header-fixo {
+    position: fixed;
+    width: 1467px;
+    height: 212px;
+    top: 0;
+    left: 0;
+  }
+  
+  .header {
+    position: relative;
+    width: 1467px;
+    background-color: transparent;
+  }
+  
+  .impactos {
+    position: absolute;
+    width: 159px;
+    top: 88px;
+    left: 1152px;
+    opacity: 0.5;
+    font-family: var(--h1-TITULO-font-family);
+    font-weight: var(--h1-TITULO-font-weight);
+    color: #ffffff;
+    font-size: var(--h1-TITULO-font-size);
+    text-align: center;
+    letter-spacing: var(--h1-TITULO-letter-spacing);
+    line-height: var(--h1-TITULO-line-height);
+    white-space: nowrap;
+    font-style: var(--h1-TITULO-font-style);
+  }
+  
+  .game {
+    position: absolute;
+    width: 106px;
+    top: 88px;
+    left: 1361px;
+    opacity: 0.5;
+    font-family: var(--h1-TITULO-font-family);
+    font-weight: var(--h1-TITULO-font-weight);
+    color: #ffffff;
+    font-size: var(--h1-TITULO-font-size);
+    text-align: center;
+    letter-spacing: var(--h1-TITULO-letter-spacing);
+    line-height: var(--h1-TITULO-line-height);
+    white-space: nowrap;
+    font-style: var(--h1-TITULO-font-style);
+  }
+  
+  .otan-e-ue {
+    position: absolute;
+    width: 190px;
+    top: 88px;
+    left: 912px;
+    opacity: 0.5;
+    font-family: var(--h1-TITULO-font-family);
+    font-weight: var(--h1-TITULO-font-weight);
+    color: #ffffff;
+    font-size: var(--h1-TITULO-font-size);
+    text-align: center;
+    letter-spacing: var(--h1-TITULO-letter-spacing);
+    line-height: var(--h1-TITULO-line-height);
+    white-space: nowrap;
+    font-style: var(--h1-TITULO-font-style);
+  }
+  
+   .humanidade {
+    position: absolute;
+    width: 227px;
+    top: 88px;
+    left: 635px;
+    opacity: 0.5;
+    font-family: var(--h1-TITULO-font-family);
+    font-weight: var(--h1-TITULO-font-weight);
+    color: #ffffff;
+    font-size: var(--h1-TITULO-font-size);
+    text-align: center;
+    letter-spacing: var(--h1-TITULO-letter-spacing);
+    line-height: var(--h1-TITULO-line-height);
+    white-space: nowrap;
+    font-style: var(--h1-TITULO-font-style);
+  }
+  
+   .donbass {
+    position: absolute;
+    width: 147px;
+    top: 90px;
+    left: 438px;
+    opacity: 0.5;
+    font-family: var(--h1-TITULO-font-family);
+    font-weight: var(--h1-TITULO-font-weight);
+    color: #ffffff;
+    font-size: var(--h1-TITULO-font-size);
+    text-align: center;
+    letter-spacing: var(--h1-TITULO-letter-spacing);
+    line-height: var(--h1-TITULO-line-height);
+    white-space: nowrap;
+    font-style: var(--h1-TITULO-font-style);
+  }
+  
+  .crimeia {
+    position: absolute;
+    width: 138px;
+    top: 90px;
+    left: 250px;
+    opacity: 0.5;
+    font-family: var(--h1-TITULO-font-family);
+    font-weight: var(--h1-TITULO-font-weight);
+    color: #ffffff;
+    font-size: var(--h1-TITULO-font-size);
+    text-align: center;
+    letter-spacing: var(--h1-TITULO-letter-spacing);
+    line-height: var(--h1-TITULO-line-height);
+    white-space: nowrap;
+    font-style: var(--h1-TITULO-font-style);
+  }
+  
+  .logo {
+    position: absolute;
+    width: 200px;
+    height: 212px;
+    top: 0;
+    left: 0;
+  }
+  .carrossel {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    gap: 10px; 
+    transition: transform 0.6s ease-in-out;
+  }
+
+  .inputs .nav-input{
+    cursor: pointer;
+  }
+  
+  .slide {
+    flex: 0 0 calc(33.333% - 10px); 
+  }
+  .slide img {
+    width: 400px;
+    height: 320px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  #s1:checked ~ .carrossel .slides { transform: translateX(0%); }
+  #s2:checked ~ .carrossel .slides { transform: translateX(-33.333%); }
+  #s3:checked ~ .carrossel .slides { transform: translateX(-66.666%); }
+  #s4:checked ~ .carrossel .slides { transform: translateX(-100%); }
+  #s5:checked ~ .carrossel .slides { transform: translateX(-133.333%); }
+  

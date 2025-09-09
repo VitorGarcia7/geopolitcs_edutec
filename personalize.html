@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="personalize.css">
+    <script src="./personalize.js" defer></script>
+
+    <title>Geopolitics</title>
+</head>
+<body>
+    
+    <div class="voltar">
+        <a href="./inicioJogo.html"><img src="./assets/seta para voltar.png" alt="seta para voltar"></a>
+    </div>
+    
+    <h1>Escolha seu personagem</h1>
+    
+    <section class="personagens" data-group="personagem">
+        <div class="pato">
+            <button class="escolha" class="botao" class="selecionado" data-value="Pátim">
+                <img src="./assets/cartao pato.png" alt="cartão para escolha de personagem Vladmir Pátin">
+                <p>Vladmir Pátim</p>
+            </button>
+        </div>
+
+        <div class="camaleao">
+            <button class="escolha" class="botao" data-value="Camalensky">
+                <img src="./assets/cartao camaleao.png" alt="cartão para escolha de personagem Volodmir Camalensky">
+                <p>Volodmir Camalensky</p>
+            </button>
+        </div>
+    </section>
+
+    <h1>Escolha seu avião</h1>
+
+    <section class="avioes" data-group="aviao">
+        <div class="aviao1">
+            <button class="escolha" class="botao" data-value="avião laranja">
+                <img src="./assets/aviao_laranja.png" alt="avião de cor laranja">
+            </button>
+        </div>
+
+        <div class="aviao2">
+            <button class="escolha" class="botao" data-value="avião verde">
+                <img src="./assets/aviao_verde.png" alt="avião de cor verde">
+            </button>
+        </div>
+
+        <div class="aviao3">
+            <button class="escolha" class="botao" data-value="avião vermelho">
+                <img src="./assets/aviao_vermelho.png" alt="avião de cor vermelho">
+            </button>
+        </div>
+    </section>
+
+    <div class="play">
+        <nav>
+            <a id="link-play" href="./game.html"> PLAY <img src="./assets/button-play.png" alt="botão de play para ir ao jogo"></a>
+        </nav>
+    </div>
+
+</body>
+</html>

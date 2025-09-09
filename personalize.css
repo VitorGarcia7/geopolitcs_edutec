@@ -1,0 +1,94 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+
+body { 
+    font-family: 'Pixelify Sans', sans-serif; 
+    background-color: #1f6d2d; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    color: white; 
+} 
+
+.voltar a { 
+    position: absolute; 
+    top: 15px; 
+    left: 15px;
+    background: none; 
+    border: none; 
+    cursor: pointer; 
+    } 
+    
+    .personagens, .avioes{ 
+        max-width: 1400px;
+        max-height: 350px; 
+        border-radius: 20px; 
+        background: rgba(153, 215, 166, 0.47); 
+        display: flex; 
+        gap: 20px; 
+        margin: 20px; 
+    } 
+    
+    .personagens button, .avioes button { 
+        border: none; 
+        background: none; 
+        text-decoration: none; 
+        border-radius: 10px; 
+        padding: 10px; 
+        cursor: pointer; 
+        transition: transform 0.2s, background 0.2s; 
+    } 
+    
+    .avioes .aviao2 { 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+    } 
+
+    .personagens button:hover, .avioes button:hover { 
+        background: #36a503; transform: scale(1.05); 
+    } 
+
+    .personagens img{
+     max-width: 480px; 
+     max-height: 420px; 
+    } 
+
+    .avioes img { 
+        max-width: 380px; 
+        max-height: 170px; 
+    } 
+
+    .personagens p { 
+        font-family: 'Pixelify Sans', sans-serif; 
+        margin: 5px; 
+        font-weight: 500; 
+        font-size: 45px; 
+        color: #fff; 
+    } 
+
+.play a{ 
+            font-family: "Pixelify Sans"; 
+            color: white; 
+            text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25); 
+            padding-inline: 1rem; 
+            line-height: 50%; 
+            margin-top: 40px; 
+            font-size: 96px; 
+            font-weight: 500; 
+            text-decoration: none; 
+            width: fit-content; 
+            border-radius: 15px; 
+            background-color: #FFC31D; 
+            margin-bottom: 70px; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+
+            img { 
+                width: 80px; 
+            } 
+        }
